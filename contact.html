@@ -9,7 +9,7 @@
   <body>
     <!-- This is the navBar at the top of the screen. h1 has a nested so that the name takes users back to HOME -->
     <nav>
-      <p><a href="index.html">KIANNA DALTON, MBA, GBDS</a></p>
+      <a href="index.html">KIANNA DALTON, MBA, GBDS</a>
 
       <div class="diffLinks">
         <a href="index.html">HOME</a>
@@ -21,10 +21,12 @@
     <!-- This section is the main information of the page -->
 
     <main>
-      <h1>CONTACT PAGE</h1>
+      <h1>Contact Me</h1>
+
+      <hr>
 
       <div>
-        <h2>Contact Me</h2>
+        <h2 class="GetInTouch">Get in Touch!</h2>
         <p>
           I'd love to hear from you! Whether you have a question, feedback, or
           just want to say hello — feel free to reach out using the form below
@@ -43,7 +45,7 @@
 
           <br />
           <label for="reason-select">Reason for Inquiry:</label>
-          <br>
+          <br />
           <select name="reason" id="reason-select">
             <optgroup class="selectOptions">
               <option value="choose">--Please choose an option--</option>
@@ -59,25 +61,33 @@
           <label for="subjectLine">Subject:</label>
           <input type="text" />
           <label for="messageBox">Message:</label>
-          <br>
+          <br />
           <textarea name="message" id="messageInput" required></textarea>
 
-          <br>
+          <br />
 
           <button>Submit</button>
         </form>
 
         <div class="contactInfo">
-            <h2>Contact Information:</h2>
-            <p>Email: kiannadalton@aol.com</p>
-            <p>Phone: (260) 704-0273</p>
-            <p>Address: 123 Sesame St., New York, NY 10010</p>
-
+          <h2>Contact Information:</h2>
+          <p>Email: kiannadalton@aol.com</p>
+          <p>Phone: (260) 704-0273</p>
+          <p>Address: 123 Sesame St., New York, NY 10010</p>
         </div>
-
-
       </div>
     </main>
-    <footer>This is a footer. It does foot things.</footer>
+
+    <footer>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img src="./images/facebook.png" alt="Facebook Icon" class="logo"
+        /></a>
+        <a href="https://www.linkedin.com/in/kiannadalton/" target="_blank"
+          ><img src="./images/LinkedIn.png" alt="Facebook Icon" class="logo"
+        /></a>
+        <a href="https://github.com/kiannadalton" target="_blank"
+          ><img src="./images/github.png" alt="Facebook Icon" class="logo"
+        /></a>
+      </footer>
   </body>
 </html>
